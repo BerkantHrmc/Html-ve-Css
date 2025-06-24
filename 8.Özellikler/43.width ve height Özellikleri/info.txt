@@ -1,0 +1,89 @@
+width ve height Özellikleri
+---------------------------
+width Özelliği
+Bir öğenin genişliğini belirler.
+
+ height Özelliği
+Bir öğenin yüksekliğini belirler.
+
+(1)*********
+
+div {
+  height: 200px;
+  width: 300px;
+}
+
+veya
+
+<div width="200px" height="200px" ></div>
+
+(2)********
+
+div {
+  height: %50;
+  width: %50;
+}
+
+Sayfamın genişliğinin ve yüksekliğinin yarısını kapla demek.
+ama bu şekilde çalışmayacaktır çünkü bodymin yüksekliği şu an sıfır ve  html'nin 8px html ve body bunun ebebeyni ebebyninden 
+büyük olamayacağından önce body ve html'nin tüksekliğini %100 e çekmeliyiz.
+
+html,body{
+  height: %100;
+}
+
+div {
+  height: %50;
+  width: %50;
+}
+
+Şimdi oldu.
+
+----------------------------------------------------------------------------------------------------
+
+Blok Seviyeli Etiketler (Block-level Elements)
+----------------------------------------------
+
+Tanım:
+Yeni satırdan başlar. Tüm satırı kaplar. Genişlik ve yükseklik verilebilir.
+
+Özellikleri:
+
+-Yeni satıra geçer
+-Tüm yatay alanı kaplar
+-İçine hem blok hem satır içi etiket alabilir
+
+Örnek Etiketler: <div>, <p>, <h1> - <h6>, <ul>, <li>, <section>, <article>, <header>, <footer>, <form>
+
+
+Satır İçi Etiketler (Inline Elements)
+-------------------------------------
+
+Tanım:
+Bulunduğu satırda kalır. Sadece içerik kadar yer kaplar. Genişlik/yükseklik verilemez.
+
+Özellikleri:
+
+-Yeni satır oluşturmaz
+-Sadece ihtiyaç kadar yer kaplar
+-Blok etiket içeremez
+
+Örnek Etiketler: <span>, <a>, <strong>, <b>, <i>, <em>, <img>, <label>
+
+
+
+----------------------------------------------------------------------------------------------------
+span{
+  width: 300px;
+  height: 300px;
+  background-color: lime;
+}
+div{
+  width: 300px;
+  height: 300px;
+  background-color: lime;
+}
+
+Bu iki css koduna dikkat edin biri satır içi iken diğeri blok seviyesindedir.span satır içi olduğndan içini doldurmadan
+verdiğimiz yükseklik ve genişliğin bir anlamı olmayacak.divde ise içini doldurmasak bile yükseklik ve genişlik ayrılacak.
+satır içi elemanlarını da blok seviyesindeki gibi widht ve heiht sahip olması için ileride display kullanağız .

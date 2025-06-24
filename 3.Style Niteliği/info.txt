@@ -1,0 +1,7 @@
+Style niteliği style etiketi gibi html sayfasında css biçimlendirmesi yapmak için kullanılır ama 
+bu sefer yazılan etiketi etliyen bir niteliktir.
+
+  <h1 style="color: chocolate;" >Burada örnek bir yazı gözükmekte.</h1>
+  ----------------------------------------------------------------------
+
+  başka bir h1 etiketi daha varsa bu nitelik onu etkilemez ama style etiketi etkilerdi tam olarak fark budur.

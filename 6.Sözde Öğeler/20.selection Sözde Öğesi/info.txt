@@ -1,0 +1,19 @@
+selection sözde öğesi
+---------------------
+
+selection kullanarak imleç ile seçim işlemini şekillendirebilirsiniz.(Mesela bir şeyi kopyalamak için metini seçtiğimizde nasıl gözüksün )
+
+-----------------------------------------------------------------------
+
+::selection{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+Böyle yazınca html sayfasının tamamı bu biçimde olur.
+
+-----------------------------------------------------------------------
+
+p::selection{
+                        Yaparsak mesela sadece paragraflara uygulanır.
+}

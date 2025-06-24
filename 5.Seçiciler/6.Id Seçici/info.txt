@@ -1,0 +1,21 @@
+Css dosyalarında etikerlere id vererek onları daha özel olarak sınıflandırabiliriz.Böylece
+etiket sınıflandırması yapmak zorunda kalmayız.
+
+<h1> Hoş geldiniz.</h1>
+<h1 id= "title"> Hoş geldiniz.</h1>
+
+h1{
+    color : red;
+}
+
+#title{
+    color : blue;
+}
+
+id verilemeyen tüm h1 etiketleri etiket seçici ile çağırılacağı için renkleri kırmızı olacak.
+örnekteki title id'li h1 ise özel olarak id seçici ile çağrıldığı için mavi renkte olacak.
+
+Etiketlerin idlerini " # " ile çağırırız.
+title id'sini diyelim div'e de verebiliriz ama bu w3c'ye aykırıdır.Her id tekil olmalı.
+
+h3#title = bu şu anlama gelir h3 etiketlerimde id'si title olanlara uygula.

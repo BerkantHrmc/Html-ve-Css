@@ -1,0 +1,8 @@
+(1)
+
+Css dosyası oluşturmak yerine o html dosyasına özel tasarım yapmak isterseniz.
+
+<style> </style> arasına css kodlarınızı yazabilirsiniz ancak o css kodları sadece o dosyaya ait olacaktır.
+----------------
+
+style head içine yazılır.

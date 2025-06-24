@@ -1,0 +1,10 @@
+last-of-type Sözde Sınıfı
+-----------------------
+last-type-of'da benzer şekilde.
+
+div:first-of-type{
+    color: red ;                
+}
+
+Bir öğenin ebeveyni içindeki son div öğesini seçer.
+(Diğer etiket türlerini dikkate almaz, sadece div’lere bakar.)

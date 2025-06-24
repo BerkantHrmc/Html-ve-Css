@@ -1,0 +1,12 @@
+input{
+    background-color: gray;
+    color: aliceblue;
+}
+
+input:required{
+    background-color: red;
+}
+
+input:read-only{
+    background-color: green;
+}

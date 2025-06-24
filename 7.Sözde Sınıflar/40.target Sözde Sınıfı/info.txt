@@ -1,0 +1,8 @@
+target Sözde Sınıfı
+-----------------------
+
+p:target{
+    background-color: yellow;
+}
+
+Paragraflarda bir şeye target olunca onun arka planını sarı yap.

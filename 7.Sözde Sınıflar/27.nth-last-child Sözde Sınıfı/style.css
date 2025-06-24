@@ -1,0 +1,5 @@
+li:nth-last-child(3){
+    background-color: beige;
+}
+
+/* sondan 3. li'yi boyar. */

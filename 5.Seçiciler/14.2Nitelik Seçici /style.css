@@ -1,0 +1,23 @@
+span[title|= "box"]{
+    color: red;            
+}
+/*box kelimesi ile başlayanları seçer */
+
+span[title^="container"]
+{
+    color: chocolate;
+}
+/*container  ile başlayanları seçer */
+
+
+div[title$="box"]{
+
+    background-color: chartreuse;
+}
+/*box ile bitenleri seçer */
+
+div[class*="title" i]{
+
+    background-color: darkblue;
+    color: aliceblue;
+}

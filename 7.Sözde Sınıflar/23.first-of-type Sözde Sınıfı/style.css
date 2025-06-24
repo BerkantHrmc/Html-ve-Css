@@ -1,0 +1,10 @@
+div:first-of-types{
+    background-color: aquamarine;
+}
+/*tBu seçimde aynı türdeki (yani div olan) kardeş öğeler arasında ilk sırada olanı hedef alırsın.
+
+div:first-child{
+    background-color: aquamarine;
+}
+Bu seçimde herhangi bir öğe türüne bakılmaksızın, bir öğe ebeveyninin ilk çocuğuysa ve aynı zamanda
+ bir div ise seçilir.

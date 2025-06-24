@@ -1,0 +1,15 @@
+ul li:hover {
+    color: blue;
+}
+
+button:hover +ul {      /*butonların üzerine gelidiğinde ondan sonra gelen il ul'ye uygula*/   
+    display:none;       /*Görünümünü Gizle Demek */ 
+}
+
+.linkler::after {
+  content: ' (' attr(href) ')';
+}
+
+.linkler:hover::after {
+  display: none;
+}

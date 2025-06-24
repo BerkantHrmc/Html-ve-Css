@@ -1,0 +1,10 @@
+Bu sefer h3 etiketinden gelen paragrafı değilde;
+h3 etiketinden sonra gelen tüm paragrafları seç şeklinde olacak.
+
+Bu tilde işareti ile yapılır. ~
+Macte bu işaret : option + n ile yapılır.
+
+h3 ~ p {
+    color : red ;       h3'ten sonra gelen tüm paragrafları kırmızı yap.
+
+}

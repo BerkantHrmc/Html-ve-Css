@@ -1,0 +1,5 @@
+nth-last-child sözde öğesi
+-----------------------
+
+Sonda n. çocuğu seçmenizi sağlar.
+

@@ -1,0 +1,7 @@
+CSS'de 
+
+h3,p,div { 
+
+} 
+
+yazarak grup olarak seçebilriz.

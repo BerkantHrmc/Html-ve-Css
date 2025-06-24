@@ -1,0 +1,11 @@
+input:valid{
+    border-color: green;       
+}
+
+/*Geçerli bir input ise kenarlıkları yeşil yap.*/
+
+input:invalid{
+    border-color: red;         
+}
+
+/*Geçersiz bir input ise kenarlıkları kırmızı yap.*/

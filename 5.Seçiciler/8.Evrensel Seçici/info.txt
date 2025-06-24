@@ -1,0 +1,17 @@
+"*" bir evrensel seçicicidir.
+*{
+
+}
+yaparak tüm biçimlendirmeleri etkileyebiliriz.
+Tarayıcıların paragraf için belirlediği dış margin değeri vardır mesela biz bu evrensel seçiciyi sıfırlamak için 
+kullanıyoruz ve sıfırlıyoruz.İleride bunu kullanacak yerler bulacağız.
+
+----------------------------------------------------------------------------------
+
+div * {
+                            div içindeki tüm etiketlerimi seç demek.
+}
+
+<div> bu bir <span> div </span> <strong> etiketidir.</strong> </div>
+
+gibi.

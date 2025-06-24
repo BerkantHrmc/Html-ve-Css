@@ -1,0 +1,22 @@
+Bir html sayfası için tüm css dosyalarını (buton , form , başlık , paragraf , mesajbox ) ayrı ayrı çağırmak yerine 
+bir tane main css dosyası yaparım tüm gerekli css dosyalarını ona import ederim ve sadece bir tane css dosyası 
+çağırarak bir çok css dosyasına erişmiş olurum.
+
+main.css içine : 
+@import "text.css"; ekleyince artık main dosyası text dosyasının stillerini de içerir.
+------------------
+index dosyasında maini çağırsak yeterli.
+
+@import url (text.css); şeklinde de yazabiliriz.
+-----------------------
+
+
+sytle etiketi içine de @import yapılabilir.
+
+<style>
+
+@import "text.css"; veya maini link ile eklemek yerine style ile ekle.
+
+</style>
+
+!!! body içine yazılmalı bu da.

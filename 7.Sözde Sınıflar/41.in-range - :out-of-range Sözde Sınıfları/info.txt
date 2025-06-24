@@ -1,0 +1,33 @@
+in-range ve out-of-range Sözde Sınıfları
+----------------------------------------
+
+:in-range ve :out-of-range sözde sınıfları, formlarda kullanılan <input> elementleri için geçerlidir 
+ve HTML5 ile birlikte gelmiştir. Bu sınıflar, bir giriş alanının belirtilen minimum (min) ve maksimum 
+(max) değer aralığında olup olmadığını kontrol eder.
+
+
+------------------------------------------------------------------------------------------------------------------------
+:in-range
+---------
+
+Bu sözde sınıf, bir <input> elemanının belirtilen aralıkta (min-max dahil) olduğunu ifade eder.
+
+input:in-range {
+ 
+}
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+:out-of-range
+-------------
+
+Bu sözde sınıf, bir <input> değerinin min-max aralığı dışında olduğunu gösterir.
+
+input:out-of-range {
+  
+}
+
+
+
+------------------------------------------------------------------------------------------------------------------------

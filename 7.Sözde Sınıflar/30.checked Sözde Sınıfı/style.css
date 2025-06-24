@@ -1,0 +1,23 @@
+input[type="radio"]:checked + span {
+    color:blueviolet;
+}
+/* tipi radio olan imput etiketlerinde herhangi biri seçildiğinde ondan sonra gelen
+spanları mor yap.
+*/
+
+.button::before{
+    content: attr(data-hide);
+
+}
+
+.checkbox:checked + .button::before{
+    content: attr(data-show);
+    
+}
+
+.checkbox:checked + .button + .box{
+    display: none;
+    
+}
+
+/*Önemli bir alan ve çok kullanılır.*/

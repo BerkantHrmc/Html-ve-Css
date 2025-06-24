@@ -1,0 +1,11 @@
+:root {
+  --ana-renk: #3498db;
+  --yazi-rengi: #333;
+  --kenar-bosluk: 16px;
+}
+
+body {
+  background-color: var(--ana-renk);
+  color: var(--yazi-rengi);
+  padding: var(--kenar-bosluk);
+}

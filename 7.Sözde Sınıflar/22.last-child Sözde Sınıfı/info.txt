@@ -1,0 +1,11 @@
+last-child Sözde Sınıfı
+-----------------------
+
+Bu sefer ilk elemanı değil son elemanı seçer.
+
+li:last-child {
+    color:red ;     son elemanı(çocuğu kırmızı yapar)
+}
+
+---------------------------------------------------------------
+

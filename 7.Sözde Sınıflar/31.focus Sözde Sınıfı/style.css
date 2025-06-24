@@ -1,0 +1,14 @@
+button:focus{
+    background-color: aqua;
+    color: white;
+}
+/*butona tıkladığınızda rengi aqua olur*/
+
+input:focus{
+    color: brown;
+    outline: none; /*tarrayıcıdan gelen dış kısımdaki mavi çerçeveyi önler  */
+}
+/*input boxa tıkladığınızda yazı kahverengi aksi halde default olur.*/
+
+/*div'e focus yazmayacağım*/
+

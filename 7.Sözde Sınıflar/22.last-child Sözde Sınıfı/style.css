@@ -1,0 +1,13 @@
+li:last-child{
+    background-color: blue;
+} 
+
+.Ders li:last-child{
+    background-color: yellow;
+}
+
+div ul:last-child{
+    background-color: red;
+}
+
+/*div içindeki son ul yi kırmızıya boya

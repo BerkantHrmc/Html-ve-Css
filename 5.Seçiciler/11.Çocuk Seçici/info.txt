@@ -1,0 +1,19 @@
+1. <p>Merhaba,<b>kalın</b> ve <em>eğik</em> yazıdır.</p>
+2. <p>Merhaba,<span><b>kalın</b> </span> ve <em>eğik</em> yazıdır.</p>
+
+Bu örnekte : 
+
+p b {
+
+    color : red ;
+}
+
+Böyle yazınca hem 1. hem 2. koddaki paragrafın içindeli b etiketi içindeki kalın ifadesi 
+kırmızı olur.Bunu önelmeke için çocuk seçici etiketi kullanırız.
+
+1. örnekteki <b> yi seçmek için : 
+p > b {
+
+}
+
+Bu şekilde şunu demek isteriz ebebeyni p olan b etiketini seç.

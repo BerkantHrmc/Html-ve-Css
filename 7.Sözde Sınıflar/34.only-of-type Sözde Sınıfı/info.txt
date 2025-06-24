@@ -1,0 +1,15 @@
+only-of-type Sözde Sınıfı
+-------------------------
+
+only-child'ın of type versiyonu.
+
+-------------------------------------------------------------------------------------------------
+
+<ul>
+<div>Bu bir div etiketidir.</div>
+<li>Altın</li>
+</ul>
+
+li:only-of-type{
+    background-color: cadetblue;        içinde bir tane tip li olanları seçer.
+}

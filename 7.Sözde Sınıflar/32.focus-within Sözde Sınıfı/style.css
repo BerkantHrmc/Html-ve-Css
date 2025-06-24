@@ -1,0 +1,4 @@
+input:focus-within {
+    background-color: red;
+    color: blue;
+}

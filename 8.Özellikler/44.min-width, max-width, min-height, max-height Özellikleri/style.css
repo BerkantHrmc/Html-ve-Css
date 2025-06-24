@@ -1,0 +1,7 @@
+div{
+  max-width: 1000px;  /*alabileceği max genişlik 1000px 1000den aza düşebilir ekran küçülünce*/
+  min-width: 600px;   /*600px'in altına inerse artık scroll devreye girer*/
+  background-color: lime;
+  max-height: 400px;  /*alabileceği max uzunluk 400px 400den aza düşebilir ekran küçülünce*/
+  min-height: 200px;   /*200px'in altına inerse artık scroll devreye girer*/
+}

@@ -1,0 +1,37 @@
+focus Sözde Sınıfı
+------------------
+
+Bir bileşiğe tıkladığınızda olabilecek değişikliklerle ilgilidir.
+-----------------------------------------------------------------------------------------
+
+input:focus{
+    color: brown;
+}
+/*input boxa tıkladığınızda yazı kahverengi aksi halde default olur.*/
+
+-----------------------------------------------------------------------------------------
+
+ button:focus{
+    background-color: aqua;
+    color: white;
+}
+/*butona tıkladığınızda rengi aqua olur*/
+
+-----------------------------------------------------------------------------------------
+
+***hover'dan farkı hover üzerine gelidiğimizdeydi bu tıklayınca.
+*** Div gibi etiketlere odaklanamazsınız.tab ile geçemeyeceğiniz bileşenlere focuslanamazsınız.
+*** Etiketlerime tabindex verebilirim
+
+-----------------------------------------------------------------------------------------
+
+<button tabindex="0">Gönder</button>
+<input tabindex="1" type="text">
+
+-----------------------------------------------------------------------------------------
+*** focuslanamayan bileşenlere de tabindex yazarak focuslanır hale getirebilriz.
+outline none diyerek dıştaki mavi çerçeveyi kaldırabiliriz.
+
+focus:{
+    outline: none;
+}

@@ -1,0 +1,21 @@
+first-of-type Sözde Sınıfı
+--------------------------
+first-child sözde sınıfı biraz kusurluydu eden div ilk çocuk etiketimi seçmek istediğimde ama öncesinde 
+paragraf varsa örneğin benimseçme işlemim geçersiz oluyordu.
+
+<p>Merhaba</p>
+<div> div etiketi </div>
+<div> 2.div etileti </div>
+
+Mesela bunda ;
+
+div:first-child{
+    color: red ;                dediğimizde herhangi bir değişiklik olmayacak(paragraftan dolayı).
+}
+
+Biz buna düzenleme getirebiliriz. first-of-type ile bunun üstesinden gelebiliriz.
+
+div:first-of-type{
+    color: red ;                kapsayıcı etiket body olmasına ve ilk etiketimiz div olmamasına rağmen div'i seçecek.
+}
+

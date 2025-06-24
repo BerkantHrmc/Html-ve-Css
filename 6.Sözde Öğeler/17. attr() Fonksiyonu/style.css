@@ -1,0 +1,18 @@
+div {
+    background-color: yellow;
+}
+
+div::before{
+    content: attr(class);
+    background-color: red;
+    color: black;
+}
+/* böylelikle class niteliğinin içindeki değeri yazar.*/
+
+div::after{
+    content: attr(data-ad);
+    color: blue;
+}
+
+/* data-ad niteliğini div içine yazmıştık şimdi burada niteliğin değerini dinamik olarak çağırabiliyoruz.*/
+

@@ -1,0 +1,9 @@
+input:in-range {
+  background-color: #d4edda; /* yeşilimsi */
+  border: 2px solid green;
+}
+
+input:out-of-range {
+  background-color: #f8d7da; /* kırmızımsı */
+  border: 2px solid red;
+}

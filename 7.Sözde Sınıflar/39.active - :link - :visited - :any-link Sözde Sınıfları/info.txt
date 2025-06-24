@@ -1,0 +1,45 @@
+active,:link,:visited,:any:link Sözde Sınıfları
+----------------------------------------------------------
+
+active
+------
+O an seçilmiş olan linki temsil eder.
+
+.link1:active{
+    background-color: yellow;
+}
+/*link1 aktif olduğunda arka plan rengini sarı yap */
+
+
+----------------------------------------------------------------------------------------------------
+
+link
+----
+Henüz ziyaret edilmemiş linkleri seçmemizi sağlıyor.
+
+:link{
+    background-color: tomato;
+}
+
+/*ziyaret etmediklerimi kırmızı yap */ 
+
+
+
+----------------------------------------------------------------------------------------------------
+
+visited 
+-------
+Ziyaret edilmiş linkleri seçmemizi sağlıyor.
+
+:visited{
+    background-color: greenyellow;
+}
+/* ziyaret ettiklerimi yeşil yap */
+
+
+----------------------------------------------------------------------------------------------------
+
+any-link 
+--------
+Geçerli a etiketleri seçmemizi sağlıyor.
+href niteliği olanları seçer.

@@ -1,0 +1,35 @@
+hoveer Sözdde Sınıfı
+--------------------
+
+Fare ile bir etiketin üstüne geldiğimde bunu yakalamamı sağlayan bir sözde sınıftır.Örneğin 
+herhangi bir ul li etiketinin üstüne geldiğimde buna still işlemi uygulayabilirim.
+
+-----------------------------------------------------------------------------------------------
+
+ul li {
+
+    color: red;     Normalde bu şekilde maddenin rengini değiştirebiliyorduk.
+}
+
+Ammavelakin yazımız normal renginde olsun ancak üstüne imleci getirdiğimizde renk değiştirsin istersek ne yapcağız.
+hover etiketini kullanacağız.Sonuna :hover eklemem yeterli.
+
+ul li:hover {
+
+    color: red;     Normalde bu şekilde maddenin rengini değiştirebiliyorduk.
+}
+
+
+-----------------------------------------------------------------------------------------------
+
+button:hover +ul {      buttonun üzerinde geldikten sonra hemen sonraki ul için uygula demek.
+    display:none;       Görünümünü gizle demek.
+}
+
+CSS'te hover en çok kullanılan sözde sınıflardan biridir.
+
+-----------------------------------------------------------------------------------------------
+
+p::selection{
+    background-color: lime;         Yazıyı seçince rengini lime yap.
+}

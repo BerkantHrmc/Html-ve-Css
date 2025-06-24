@@ -1,0 +1,46 @@
+Class seçici CSS'i CSS yapan şeydir.
+CSS'in ana amacı az kod yazmaktır ve aynı stili sahip birden fazla etikete bir css kodu yazarak yönetmektir.
+
+<h3>Berkant Hurmacı</h3>
+<p>Bu bir paragraftır.</p>
+<div>Bu bir div etiketidir.</div>
+
+diyelimki bu üç etiketi aynı stillerde biçimlendirmek istiyoruz.
+ayrı ayrı css de bunları biçimlendirmek yerine bunlara ortak class verebiliriz.
+
+<h3 class="anaMetin">Berkant Hurmacı</h3>
+<p class="anaMetin">Bu bir paragraftır.</p>
+<div class="anaMetin">Bu bir div etiketidir.</div>
+
+css içine bu class şöyle çağrılır:
+-----------------------------------
+.class{
+    color : red ;
+}
+-----------------------------------
+Böylelikle bu classtaki tüm textler kırmızı olur.
+
+** id'de koyabilirdik ama id'lerin tekil olması beklenir classlarda tam tersi birden fazla 
+kullanılır. 
+** bir etiketin birden fazla classı olabilir.
+<div class="anaMetin kareKutu">Bu bir div etiketidir.</div>
+
+----------------------------------------------------------------------------------------------------------------------
+
+AYRIŞTIRMA
+
+.anaMetin.Bold{
+    color: orange;      anaMetin ve Bold class'ına sahip etiketlerin rengini turuncu yap anlamına gelir.
+}
+
+------------------------------------------------------------------
+
+p.anaMetin.Bold{
+    color: orange;      paragraflarım içerisinde anaMetin ve Bold class'ına sahip etiketlerin rengini turuncu yap anlamına gelir.
+}
+
+------------------------------------------------------------------
+
+p.anaMetin.Bold#paragraf2 {
+    color: orange;      paragraflarım içerisinde anaMetin ve Bold class'ına sahip id'si paragraf2 olan etiketlerin rengini turuncu yap anlamına gelir.
+}

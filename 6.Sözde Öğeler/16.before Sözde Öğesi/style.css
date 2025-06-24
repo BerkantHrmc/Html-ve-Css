@@ -1,0 +1,9 @@
+div {
+    background-color: yellow;
+}
+
+div::before{
+    content: 'bu yazının öncesidir.';
+    color: yellowgreen;
+}
+

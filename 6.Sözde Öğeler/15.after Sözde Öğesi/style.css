@@ -1,0 +1,11 @@
+div{
+    background-color: yellow;
+}
+
+div::after{
+    content: 'sonraki yazı';
+    color: red;
+}
+
+/* div etiketlerinin sonuna sonraki yazı ifadesi eklendi bu yazı seçilemez.
+Bu yazı css'te istenildiği gibi şekillendirilir.

@@ -1,0 +1,23 @@
+h1{
+    color: forestgreen;
+}
+
+p{
+    color: chartreuse;
+}
+
+li {
+    color: red;
+}
+
+ul{
+    color: blue;
+}
+
+div {
+    color: blueviolet;
+}
+
+span {
+    color: burlywood;
+}

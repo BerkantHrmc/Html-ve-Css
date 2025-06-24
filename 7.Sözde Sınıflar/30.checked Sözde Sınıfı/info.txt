@@ -1,0 +1,44 @@
+checked Sözde Sınıfı
+--------------------
+
+form elemanlarında kullanılır.
+inputlardan radio veya checkbox olanları check olduğunda bir işlem yapmamızı sağlıyor.
+
+-------------------------------------------------------------------------------------------------
+
+input[type="radio"]:checked + span {
+    color:blueviolet;
+}
+
+tipi radio olan imput etiketlerinde herhangi biri seçildiğinde ondan sonra gelen
+spanları mor yap.
+
+-------------------------------------------------------------------------------------------------
+
+.checkbox:checked + .box{
+    display: none;
+}
+
+checkbox'ı işaretlediğimizde box class'ını kaldır.
+
+-------------------------------------------------------------------------------------------------
+
+<input type="checkbox" id="cd" class="checkbox">
+<label for="cd" data-show="Göster" data-hide="Gizle"></label>
+<div class="box">Burası gizlenebilir bir alanldır.</div>
+
+.button::before{
+    content: attr(data-hide);
+
+}
+
+.checkbox:checked + .button::before{
+    content: attr(data-show);
+    
+}
+
+.checkbox:checked + .button + .box{
+    display: none;
+    
+}
+

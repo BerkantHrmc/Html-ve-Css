@@ -1,0 +1,13 @@
+li:first-child{
+    background-color: blue;
+} 
+
+.Ders li:first-child{
+    background-color: yellow;
+}
+
+div ul:first-child{
+    background-color: red;
+}
+
+/*div içindeki ilk ul yi kırmızıya boya

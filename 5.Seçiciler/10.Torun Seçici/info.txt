@@ -1,0 +1,6 @@
+Mesela div içerisindeki strong etiketini seçmek için torun seçici kullanırız.
+
+div strong {
+
+    color: red ; 
+}

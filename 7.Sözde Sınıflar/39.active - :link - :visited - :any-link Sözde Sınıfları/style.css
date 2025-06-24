@@ -1,0 +1,19 @@
+.link1:active{
+    background-color: yellow;
+}
+/*link1 aktif olduğunda arka plan rengini sarı yap */
+
+:link{
+    background-color: tomato;
+}
+
+/*ziyaret etmediklerimi kırmızı yap */ 
+
+:visited{
+    background-color: greenyellow;
+}
+/* ziyaret ettiklerimi yeşil yap */
+
+a:any-link{
+    color: blue;
+}

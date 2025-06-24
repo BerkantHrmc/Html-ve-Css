@@ -1,0 +1,41 @@
+disabled ,:required,:read-only,:read-write Sözde Sınıfları
+----------------------------------------------------------
+
+enabled ve disabled 
+-------------------
+
+:enabled	Etkin/formda kullanılabilir öğeleri seçer.
+:disabled	Devre dışı/basılamaz veya değiştirilemez öğeleri seçer.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+optional ve required 
+--------------------
+
+:optinal    Bu bilgiyi girmek opsiyoneldir.
+:required   Bu bilgiyi girmek zorunludur.
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+
+read-only 
+---------
+read-only niteliği olanları seçmek için.
+
+
+
+
+----------------------------------------------------------------------------------------------------
+
+read-write 
+----------
+read-write niteliği olanları seçmek için.
+
+
+
+

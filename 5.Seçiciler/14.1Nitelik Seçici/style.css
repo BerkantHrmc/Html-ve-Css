@@ -1,0 +1,17 @@
+abbr[title] {
+
+    color: blueviolet;
+}
+
+/* İçinde title niteliği olan abbrlere uygula. */
+
+div[title = "mainText"] {
+
+    color: chartreuse;
+}
+
+span[title~="Basketbol"]{
+    color: aqua;
+}
+
+/* içinde basketbol geçen title'lar. */

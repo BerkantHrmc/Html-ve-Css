@@ -1,0 +1,20 @@
+Sözde öğeler bir etiketi seçmeye değil seçilen etiketin belirtilen bölgelerini biçimlendirmeye yarar.
+Örneğin belirtilen etiketin öncesine veya sonrasına bir içerik ekleyebilriz ya da ilk satırını ya da ilk 
+harfini biçimlendirebiliyoruz.
+
+Sözde öğenin olup olmadığını anlamak için iki tane iki nokta ( :: ) görüyorsak sözde öğedir.
+
+--------------------------------------------------------------------------------------------------
+
+after sözde öğesi
+-----------------
+
+div::after {
+
+   content:'sonraki yazı'                     Bu şu alama gelir seçilen divler içerinde sonrasına sözde öge ile metin ekledik.
+}
+
+---------------------------------------------------------------------------------------------------
+
+Bunu şuralarda kulllanırız mesela butona basınca arka planı karartma bulanıklaştırma butonun üstüne 
+gelince oluşabilecek efektler gibi after efektlerde sıklıkla kullanılır.

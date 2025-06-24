@@ -1,0 +1,58 @@
+(4)
+[title|= "box"] title niteliği box kelimesi ile başlayanları seç demektir.
+
+<span title="box">Ali Gümüş</span>
+<span title="box-small">Şadi Şam</span>
+<span title="boxcontent">Erol Kaya</span>
+<span title="content box">Fatma Fetih</span>
+
+span[title|= "box"]{
+    color: red;             box ile başlayan title'ları kırmızı yap.
+}
+
+Sadece ilk ikisi seçilecek ilk kelime box olmak zorunda veya iki kelime arası - olmalı.
+
+----------------------------------------------------------------------------------------------
+(5)
+[title ^= "box"] title niteliği box ile başlayanları seç demektir.
+
+<span title="box">Elma</span>
+<span title="box-small">Armut</span>
+<span title="boxcontent">Karpuz</span>
+<span title="content box">Kavun</span>
+
+span[title^= "box"]{
+    color: red;             box ile başlayan title'ları kırmızı yap.
+}
+
+artık üçüncüde seçilir çünkü artık kelime olup olmaması önemsenmiyor container ile başlasın yeter.
+
+----------------------------------------------------------------------------------------------
+
+(6)
+[title $= "box"] box ile bitenler
+
+<span title="box">HTML</span>
+<span title="box-small">CSS</span>
+<span title="boxcontent">JS</span>
+<span title="content box">PHP</span>
+
+span[title^= "box"]{
+    color: red;             box ile biten title'ları kırmızı yap.
+}
+
+--------------------------------------------------------------------------------------------
+
+(7)
+[class *= "title"] sınıfının içinde title ifadesi geçenler.
+<div class="top-title">Matematik <br></div>
+<div class="top-title-box">Kimya <br></div>
+<div class="toptitlebox">Biyoloji<br></div>
+<div class="topbox">Fizik <br></div>
+<div class="top title box">Türkçe <br></div>
+
+div[class^= "title"]{
+    color: red;             box ile biten title'ları kırmızı yap.
+}
+
+*********** [class *= "title" i ] yazarak büyük küçük harfe duyarlılığı kaldırırız.Artık Title'ı da kabul eder.

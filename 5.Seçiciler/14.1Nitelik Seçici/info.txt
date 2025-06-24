@@ -1,0 +1,25 @@
+(1)
+
+Nitelik seçici adı üstünde nitelik seçer.
+[title] içinde title niteliği olan tüm etiketleri seç demek.
+p[title] içinde title niteliği olan tüm paragrafları seç demek.
+
+-----------------------------------------------------------------
+(2)
+
+Nitelik = "değer" seçici
+şu şekilde de olabilir : 
+
+p[title = "MainText"]     title değeri olan ve o niteliği "MainText" e eşit olanları seç.
+
+-----------------------------------------------------------------
+
+(3)
+
+Nitelik ~= "değer"
+
+<span title="Basketbol Koçu">Ali Gümüş</span>
+<span title="Oyuncu Basketbol">Şadi Şam</span>
+<span title="Personel Basketbol">Erol Kaya</span>
+
+span[title ~="Basketbol" ] Bu şu demek içindeki title niteliğinin içinde basketbol geçen nitelikleri seç.

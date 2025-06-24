@@ -1,0 +1,23 @@
+nth-of-type Sözde Sınıfı
+-----------------------
+
+<body>
+
+<div> 1. div etiketi</div>
+<div> 2. div etiketi</div>
+<p>paragraf etiketi</p>
+<div> 3. div etiketi</div>
+
+</body>
+
+Bu şekilde bir yapımız olduğunu düşünelim bu yapıda : 
+div:nth-child(3) dediğimizde 3. div etiketini seçmez. 4. dememiz gerekir.
+Bir nevi kapsayıcı içindeki sırasını ister(body içindeki).
+Bu bir hatadır.Bunu düzeltmek için nth-of-type kullanırız.
+
+
+------------------------------------------------------------------------------------------------------------------
+
+div:nth-of-type(3){
+    background-color: mediumslateblue;      3. div etiketini seçer.
+}

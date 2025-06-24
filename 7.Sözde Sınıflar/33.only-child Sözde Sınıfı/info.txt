@@ -1,0 +1,21 @@
+only-child Sözde Sınıfı
+-----------------------
+
+Ebebynin içinde bitane çocuk etiketi varsa çocuğu seçmek için kullanılır.
+
+----------------------------------------------------------------------------------
+
+<ul>
+<li>Altın</li>              Buna only-child yazılabilir.
+</ul>
+<hr>
+
+
+<ul>
+  <li>Gümüş</li>            Buna yazılamaz.
+  <li>Bronz</li>
+</ul>
+
+li:only-child{
+    color: yellow;          Diyince sadece üstteki sarı olacak.
+}

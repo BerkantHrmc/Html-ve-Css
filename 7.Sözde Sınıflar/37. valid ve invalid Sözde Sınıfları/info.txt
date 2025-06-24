@@ -1,0 +1,17 @@
+valid ve invalid Sözde Sınıfları
+--------------------------------
+
+Form elemanlarının geçerliliğini kontrol eder.
+
+------------------------------------------------------------------------------------
+
+input:valid{
+    border-color: green;        Geçerli bir valide ise kenarlık rengini yeşil yap.
+}
+
+input:invalid{
+    border-color: red;         Geçersiz bir valide ise kenarlık rengini kırmızı yap.
+}
+
+------------------------------------------------------------------------------------
+

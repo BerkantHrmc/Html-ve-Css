@@ -1,0 +1,9 @@
+first-line sözde öğesi
+----------------------
+
+Bu sefer ilk harf değilde ilk satırı seçeriz.
+
+p::first-letter{
+    font-size: large;
+    color: red;             İlk satırı seçip büyütüp renklendirdi.
+}

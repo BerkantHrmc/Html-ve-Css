@@ -1,0 +1,10 @@
+before sözde öğesi 
+------------------
+
+before sözde etiketi after'ın tam terisidir.
+
+
+div::after {
+
+   content:'sonraki yazı'                     Bu şu alama gelir seçilen divler içerinde öncesine sözde öge ile metin ekledik.
+}

@@ -1,0 +1,25 @@
+.maddeler li:nth-child(3n){
+    background-color: yellow;
+}
+
+/* Şu anlama gelir maddeler sınıfı içindeki 3ün katları çocukları boya. */
+
+.kısımlar li:nth-child(3n+2){
+
+    background-color: blueviolet;
+}
+
+/* Şu anlama gelir kısımlar sınıfı içindeki 3 den başla 3ün katları çocukları boya. */
+
+
+.sayfalar li:nth-child(n+4){
+
+    background-color: blanchedalmond;
+}
+
+/*  Şu anlama gelir sayfalar sınıfı içindeki 4 de dahil 4 ten sonraki tüm elemanlar. */
+
+.satırlar li:nth-child(n+3):nth-child(-n+8){
+    background-color: chartreuse;
+}
+/*  Şu anlama gelir satırlar sınıfı içindeki 3 ile 8 arası tüm elemanlar. */

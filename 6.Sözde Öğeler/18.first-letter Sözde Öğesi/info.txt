@@ -1,0 +1,10 @@
+first-letter sözde Öğesi
+------------------------
+
+Haber sitelerinde sık sık karşılaştığımız ilk harfi büyük gösterme zelliğini bu sözde öğe ile yapıyoruz.
+Aslında asıl işlevi ilk harfi seçmektir.
+
+p::first-letter{
+    font-size: xx-large;
+    color: red;             İlk harfi seçip büyütüp renklendirdi.
+}

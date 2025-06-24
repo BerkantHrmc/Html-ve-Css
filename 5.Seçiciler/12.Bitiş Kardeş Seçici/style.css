@@ -1,0 +1,12 @@
+h3 + p {
+
+    color: blueviolet;
+}
+
+div + p b {
+
+    color: orange;
+}
+
+/*div etiketinden sonraki ilk p etiketinin içindeki bold etiketi içindeki yazıyı turuncu yap.
+

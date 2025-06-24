@@ -1,0 +1,29 @@
+nth-child Sözde Sınıfı
+----------------------
+
+n. çocuk seçmek için kullanılır.
+1. çocuğuda seçebilrsin 5 çocuğuda veya tekli çocukları seçebilirim veya çift.
+
+EN ÖNEMLİ VE EN ÇOK KULLANILAN SÖZDE SINIFTIR.
+Programlama etiketleri 1 den başlar.
+-----------------------------------------------------------------------------------
+
+ul li:nth-child(3){
+    background-color: red;  Bu ul içindeki  3. çocuk li'nin arka planını kırmızı yap demek.
+}
+
+-----------------------------------------------------------------------------------
+
+ul li:nth-child(odd){
+    background-color: red;  Bu ul içindeki tek olan çocukların li'sinin arka planını kırmızı yap demek.
+}
+
+** odd TEK OLANLAR DEMEKTİR.
+
+-----------------------------------------------------------------------------------
+
+ul li:nth-child(even){
+    background-color: red;  Bu ul içindeki çift olan çocukların li'sinin arka planını kırmızı yap demek.
+}
+
+** even ÇİFT OLANLAR DEMEKTİR.

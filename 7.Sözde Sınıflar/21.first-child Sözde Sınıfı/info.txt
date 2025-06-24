@@ -1,0 +1,32 @@
+first-child Sözde Sınıfı
+------------------------
+<ul>
+  <li>1.Sınıf</li>
+  <li>2.Sınıf</li>
+  <li>3.Sınıf</li>
+  <li>4.Sınıf</li>
+</ul> 
+
+diyelim şöyle bir liste yapımız var.
+İlk elemanı seçmek için : 
+
+li:first-child {
+    color:red ;     ilk elemanı(çocuğu kırmızı yapar)
+}
+
+**Sözde sınıflarda : kullanılır.
+**Burada ilk çocuk olan liyi kırmızıya boya dedim ve unutulmamalı ki bu li nin ebebeyni ul'dir.
+ul'nin ki de mesela body olabilir.
+
+------------------------------------------------------------------------------------------------------
+
+.list li:first-child{
+    color: red ;            list sınıfımdali ilk liyi seç demek yani artık tüm ilk li ler seçilmeyecek.
+}
+
+----------------------------------------
+
+div ul:first-child{
+    color: red ;            div içerisindeli ilk ul'mi kırmızı yap ilk ul nin tüm elemanalrını kırmızı yapar.
+}
+

@@ -1,0 +1,5 @@
+Etiket seçici sayesinde diyelimki h3 bağlığı etiketimiz var.
+Tüm h3 etiketleri aynı css seçimine göre şekillenir veya 
+tüm p etiketleri aynı css seçimine göre şekillenir.
+Etiketleri seçtiğimizde o etiketi kullanan tüm yapılara
+o stille sahip olur.

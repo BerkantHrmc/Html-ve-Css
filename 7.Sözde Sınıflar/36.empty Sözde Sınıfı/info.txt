@@ -1,0 +1,22 @@
+empty Sözde Sınıfı
+------------------
+
+Eğer içinde hiçbir şey yoksa bomboşsa etiketim bunu seçip still ekleyebilriz.
+
+---------------------------------------------------------------------------------
+
+<ul>
+  <li>Madde 1</li>
+  <li></li>
+  <li>Madde 2</li>
+  <li>Madde 3</li>
+</ul>
+
+Örneğin boş li etiketinin gözükmesini istemiyorsam.
+
+li:empty{
+    display: none;
+}
+
+****lilerden içi boş olanları gizle.
+****İçinde boşluk bile olsaydı gizlenmezdi.

@@ -1,0 +1,4 @@
+nth-last-of-type Sözde Sınıfı
+-----------------------
+
+nth-of-type ile aynıdır sadece sondan saymaya başlar.

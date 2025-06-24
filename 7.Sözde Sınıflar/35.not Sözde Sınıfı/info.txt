@@ -1,0 +1,20 @@
+not Sözde Sınıfı
+----------------
+
+Örneğin class'ı test olmayan paragrafları not etiketi ile seçerim.
+Ya da id'si test olmayan etiketleri seçerim.,
+
+-----------------------------------------------------------------------------
+
+<abbr title="Başlık"> Başlık 1 </abbr>
+<abbr> Başlık 2 </abbr>
+
+abbr:not([title]){
+background-color: blueviolet;       title niteliği bulunmayanları seç.
+}
+
+-----------------------------------------------------------------------------
+
+abbr:not([title]).not(.test){
+background-color: blueviolet;       title niteliği olmayan ve test sınıfında bulunmayanları seç.
+}

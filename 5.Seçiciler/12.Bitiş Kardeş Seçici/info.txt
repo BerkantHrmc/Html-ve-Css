@@ -1,0 +1,43 @@
+  <h3>Başlık 1</h3>
+
+  <p>
+    paragraf 1
+  </p>
+  
+  <p>
+    paragraf 2
+  </p>
+
+  <p>
+    paragraf 3
+  </p>
+
+    <h3>Başlık 2</h3>
+
+  <p>
+    paragraf 1
+  </p>
+  
+  <p>
+    paragraf 2
+  </p>
+
+  <p>
+    paragraf 3
+  </p>
+
+  --------------------------------------------------------------------------
+
+  h3 + p {
+    color : red ;            anlamı şu h3'ten sonraki paragrafı bul ve kırmızı yap.
+  }
+
+burada 2 tane h3'ten sonra gelen paragraf var ikisi de kırmızı olacak.
+
+-------------
+
+div + p span {
+
+    color : red ;           anlamı şudur div etiketinden sonra gelen ilk paragrafın 
+}                           içindeki span etiketinin rengini kırmızı yap
+

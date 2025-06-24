@@ -1,0 +1,24 @@
+attr() fonksiyonu
+-----------------
+
+attr yani attribute ile before ve after sözde öbeklerinden gelen nitelikleri dinamik olarak alabiliriz.
+
+div::before{
+    content: attr(class);
+    background-color: brown;           divin sonuna class niteliğinin değerini yazar ve arka planı kahverengi yapar.
+    
+}
+
+--------------------------------------------------------------------------------------------------------------------
+
+ şöyle güzel bir özellik var normalde kafamıza göre nitelik ismi oluşturamayız (W3C) ama data-isim ile istediğimiz
+niteliği etiket içine ekleyebiliriz.Örneğin:
+
+
+
+<div class="texts" data-ad = "Berkant" >Bu bir div etiketidir.</div>
+
+div::after{
+    content: attr(data-ad);         Burada data-ad değerini yazar ve mavi yapar.
+    color: blue;
+}

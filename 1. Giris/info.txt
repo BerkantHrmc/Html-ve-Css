@@ -1,0 +1,12 @@
+(1)
+
+Html dosyası içine css dosyasını eklemek için html dosyasında head içine link etiketi yazılır ve 
+href ile css dosyasının yolu belirtilir.
+
+<link rel="stylesheet" href="./style.css">
+
+-----------------------------------------------
+
+
+
+
