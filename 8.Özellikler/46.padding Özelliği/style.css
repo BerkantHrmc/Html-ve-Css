@@ -1,0 +1,12 @@
+div{
+    padding: 10px;
+    background-color: lime;
+    width: max-content;
+}
+
+p {
+  padding-top: 20px;      /* Üst boşluk */
+  padding-right: 15px;    /* Sağ boşluk */
+  padding-bottom: 10px;   /* Alt boşluk */
+  padding-left: 5px;      /* Sol boşluk */
+}

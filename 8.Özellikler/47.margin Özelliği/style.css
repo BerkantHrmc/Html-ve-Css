@@ -1,0 +1,10 @@
+div{
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: lime;
+}
+
+p{
+    margin: 50px; /* her taraftan 50 boşluk*/
+    background-color: aqua;
+}

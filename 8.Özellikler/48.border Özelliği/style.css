@@ -1,0 +1,14 @@
+.class1 {
+    width: 60px;
+    height: 60px;
+    background-color: lime;
+    border-style: dotted;
+    border-color: blueviolet;
+}
+
+.class2 {
+    width: 60px;
+    height: 60px;
+    background-color: lime;
+    border: 10px dashed white ;
+}
