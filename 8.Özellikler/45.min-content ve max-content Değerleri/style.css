@@ -1,0 +1,10 @@
+div{
+    background-color: lime;
+    width: max-content;
+    
+}
+
+p{
+    background-color: lime;
+    width: min-content;          
+}
