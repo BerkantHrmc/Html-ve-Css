@@ -1,5 +1,8 @@
-          Özelliği
+padding Özelliği
 -----------------------
+
+CSS’de en çok kullandığımız özelliklerden biridir.
+İç boşluk demektir.Şu işe yarar:
 
 ----------------------------------------------------------------------------------------------------
 
