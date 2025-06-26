@@ -1,0 +1,15 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+    border: 10px double black;
+    border-radius: 20%;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 5px double sandybrown;
+    border-radius: 100px;
+}
