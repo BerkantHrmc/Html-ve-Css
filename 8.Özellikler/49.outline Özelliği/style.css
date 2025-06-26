@@ -1,0 +1,19 @@
+.class1{
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    border: 5px solid tomato;
+}
+
+/* Artık boyutum 210 a 210 oldu */
+
+.class2{
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    outline: 5px solid tomato;
+}
+
+/* boyutum hala 200e 200 */
