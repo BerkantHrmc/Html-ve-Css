@@ -1,0 +1,12 @@
+body{
+    background-image: url(z.image.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: scroll; /* scroll | local */
+    background-image: center;
+}
+
+
+p {
+  color: aliceblue;
+}

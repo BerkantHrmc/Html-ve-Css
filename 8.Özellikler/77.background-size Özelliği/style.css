@@ -1,0 +1,18 @@
+.background {
+  width: 800px;
+  height: 1000px;
+  border: 5px solid black;
+  background-image: url(z.image.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* contain veya özel boyut verilebilir */
+}
+
+h1 {
+
+color: aliceblue;
+text-align: center;
+background-image: url(z.image.png);
+background-size: 100px;
+background-size: contain; /* contain veya özel boyut verilebilir */
+
+}
