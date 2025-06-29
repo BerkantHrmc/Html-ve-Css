@@ -1,0 +1,4 @@
+body{
+    background-image: url(z.image2.png), url(z.image.png);
+    background-repeat: repeat-x,repeat;
+}

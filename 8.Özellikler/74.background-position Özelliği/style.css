@@ -1,0 +1,11 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    background-image: url(z.image2.png),url(z.image2.png);
+    background-repeat: no-repeat;
+    background-position: center , 200px 400px;
+}
+
