@@ -1,0 +1,24 @@
+.vergihaber{
+    column-count:3;
+    column-rule-style: dotted;
+    column-rule-color: blanchedalmond;
+    column-rule-width: 2px;
+    column-gap: 10px;
+}
+
+.vergihaber2{
+    padding-top: 40px;
+    column-width: 500px;
+    column-rule-style: ridge;
+}
+
+.vergihaber3 {
+  padding-top: 30px;
+  column-count: 2;
+  column-gap: 30px;
+  column-rule: 1px solid #e30000;
+}
+
+h3{
+    column-span: none;
+}

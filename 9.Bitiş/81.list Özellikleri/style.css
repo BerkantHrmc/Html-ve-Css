@@ -1,0 +1,20 @@
+li{
+    list-style-type: upper-roman;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-image:url("https://cdn2.iconfinder.com/data/icons/leto-most-searched-mix-3/64/__media_social_marketing-1024.png");
+}
+
+ul.sayac{
+    counter-reset: sayac1;
+}
+
+ul.sayac li{
+    counter-increment: sayac1 2;
+}
+
+ul.sayac li::before{
+    content: counter(sayac1);
+}

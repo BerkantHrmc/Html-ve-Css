@@ -1,0 +1,26 @@
+.class1{
+    width: 200px;
+    height: 200px;
+    background-color: palegreen;
+    display: block;
+}
+.class2{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    display: inline-block;
+}
+.class3{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    display: none;
+}
+
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
+

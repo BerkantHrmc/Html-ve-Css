@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Blackdog";
+  src: local("Blackdog"),
+       url("Blackdog.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-size: 60px;
+  font-family: "Blackdog", sans-serif;
+}

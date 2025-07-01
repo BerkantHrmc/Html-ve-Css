@@ -1,0 +1,46 @@
+.div2{
+    position: absolute;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+}
+
+.container div:nth-child(1){
+    background-color: tomato;
+}
+
+.container div:nth-child(2){
+    background-color: limegreen;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+}
+
+.container div:nth-child(3){
+    background-color: rebeccapurple;
+    position: relative;
+    z-index: 2;
+}
+
+h3{
+    font: bold 40px arial,sans-serif;
+    background-color: tomato;
+    color: aliceblue;
+    padding: 20px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    
+}
+
+.text {
+    height: 300px;
+}

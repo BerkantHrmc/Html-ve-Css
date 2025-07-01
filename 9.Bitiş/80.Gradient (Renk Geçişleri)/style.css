@@ -1,0 +1,94 @@
+label{
+    border: 2px  solid tomato;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(orange,red);
+ 
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left, orange,red);
+ 
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to top right, orange,red);
+ 
+}
+
+
+.box4{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(-45deg, orange,red);
+ 
+}
+
+.box5{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, orange,red,black,blue,yellow);
+ 
+}
+
+.box6{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left, red 50%,orange, yellow 80% 90%,green,blue,purple);
+
+}
+
+.box7{
+    width: 200px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right ,transparent,rgba(0,250,0,0.3)),url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/250px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg);
+    
+}
+
+.box8{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(lime,blue);
+ 
+}
+
+.box9{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(at left,lime,blue);
+ 
+}
+
+.box10{
+    width: 200px;
+    height: 200px;
+    background: repeating-linear-gradient(blue 0px 5px,rgb(146, 7, 7) 5px 10px);
+ 
+}
+
+.box11 {
+  width: 200px;
+  height: 200px;
+  background-image: repeating-conic-gradient(
+    brown 0deg 15deg,
+    yellow 15deg 30deg,
+    green 30deg 45deg,
+    blue 45deg 60deg
+  );
+}
+.box12{
+    width: 200px;
+    height: 200px;
+    background: repeating-radial-gradient(brown,yellow,green,blue);
+ 
+}
+
