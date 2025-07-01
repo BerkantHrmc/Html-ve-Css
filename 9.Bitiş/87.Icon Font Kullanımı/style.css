@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'iconsearch';
+  src: url('font/iconsearch.eot?33505136');
+  src: url('font/iconsearch.eot?33505136#iefix') format('embedded-opentype'),
+       url('font/iconsearch.woff2?33505136') format('woff2'),
+       url('font/iconsearch.woff?33505136') format('woff'),
+       url('font/iconsearch.ttf?33505136') format('truetype'),
+       url('font/iconsearch.svg?33505136#iconsearch') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-size: xx-large;
+  font-family: "iconsearch";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iconsearch:before { content: '\e800'; } /* 'î €' */

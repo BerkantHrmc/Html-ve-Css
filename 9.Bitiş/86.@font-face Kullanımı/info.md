@@ -188,3 +188,5 @@ body {
 
 - Performans için sadece gerekli font ağırlıklarını seç.
 - Çok fazla font yüklemek sayfa hızını yavaşlatabilir.
+
+---

@@ -1,0 +1,11 @@
+img{
+    width: 100%;
+    filter: brightness(.9) contrast(1.2) grayscale(0.7) hue-rotate(1deg) opacity(.4) saturate(.2) sepia(.1);
+    transition: 1s filter;
+    
+
+}
+
+img:hover{
+    filter: blur(0);
+}
