@@ -1,0 +1,85 @@
+.box{
+width: 200px;
+height: 200px;
+background-color: aqua;
+transition: 1s transform;
+
+}
+
+#checkbox:checked + .box {
+    transform: rotateY(360deg) ;
+}
+
+.skew-box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 3s transform;
+}
+
+#checkbox2:checked + .skew-box {
+    transform: skew(90deg , 180deg);
+}
+
+.skale-box {
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    transition: 1s transform;
+}
+
+.skale-box:hover{
+    transform: scale(3);
+    
+}
+
+.skale-box2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    transition: 1s transform;
+}
+
+.skale-box2:hover{
+    transform: scaleX(1.3);
+    
+}
+
+.menu-btn
+{
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    border: 2px solid black;
+    padding: 4px 6px;
+    font: bold 16px arial,sans-serif;
+    z-index: 1;
+    background-color: red;
+}
+
+.menu
+{
+    padding-top: 20px;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 20px;
+    right: 0px;
+    font: bold 16px arial,sans-serif;
+    background-color: black;
+    z-index: 0;
+    transition: 300ms transform;
+    transform: translate(100%);
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 7px;
+}
+
+#checkbox3:checked + .menu {
+   transform: translateX(0);
+    
+}
