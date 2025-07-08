@@ -1,0 +1,5 @@
+.box1 {
+    height: 100px;
+    overflow: scroll; /* Taşan içeriği kaydırma */
+    overflow-x: hidden; /* Yatay kaydırmayı gizler */
+}

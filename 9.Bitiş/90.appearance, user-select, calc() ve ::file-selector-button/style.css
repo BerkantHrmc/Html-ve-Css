@@ -1,0 +1,85 @@
+select {
+  -webkit-appearance: none; /* Safari/Chrome */
+  -moz-appearance: none;    /* Firefox */
+  appearance: none;
+
+  border: 2px solid black;
+  padding: 6px 8px;
+  width: 250px;
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  background-image: url(z_image.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 30px; /* Sağdan boşluk bırak */
+}
+
+input[type="checkbox"]{
+appearance: none; /* Tarayıcı varsayılan görünümünü kaldır */
+width: 20px; /* Genişlik */
+height: 20px; /* Yükseklik */
+border: 2px solid black; /* Kenarlık */
+border-radius: 4px; /* Köşe yuvarlama */
+background-color: white; /* Arka plan rengi */
+cursor: pointer; /* İmleç */
+position: relative; /* Konumlandırma için */
+
+}
+
+input[type="checkbox"]:hover{
+
+background-color: lightgray; /* Üzerine gelindiğinde arka plan rengi */
+}
+
+input[type="checkbox"]:checked{
+
+    background: url(z_image2.png) no-repeat  center; /* Seçildiğinde arka plan resmi */
+    background-size: cover ; /* Arka plan resmini kapsar */
+}
+
+input[type="radio"] {
+  -webkit-appearance: none; /* Safari/Chrome */
+  -moz-appearance: none;    /* Firefox */
+  appearance: none;
+
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="radio"]:checked{
+
+    background: url(z_image2.png) no-repeat  center; /* Seçildiğinde arka plan resmi */
+    background-size: cover ; /* Arka plan resmini kapsar */
+}
+
+input[type="file"]::file-selector-button {
+
+  border: 2px solid black;
+  padding: 6px 8px;
+  width: 250px;
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+
+
+input[type="file"]::file-selector-button:hover {
+  background-color: lime;
+}
+
+
+.box1{
+    user-select: none; /* Seçilemez */
+}
+
+.box2{
+    width: calc( 100% - 50px );
+    height: 50px;
+    background-color: black;
+}

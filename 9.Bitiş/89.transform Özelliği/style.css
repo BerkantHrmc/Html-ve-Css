@@ -79,7 +79,3 @@ transition: 1s transform;
     padding: 7px;
 }
 
-#checkbox3:checked + .menu {
-   transform: translateX(0);
-    
-}
