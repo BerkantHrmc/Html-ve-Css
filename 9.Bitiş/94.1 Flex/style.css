@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+
+}
+
+.container  {
+	display: flex;
+}
+
+
+.container2  {
+	display: flex;
+    flex-direction: column ; /* Dikey hizalama yapar */
+    /* flex-direction: row; /* Yatay hizalama yapar */
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+}
+
+.container3  {
+
+	display: flex;
+    width: 250px;
+    flex-direction: row ; 
+    flex-wrap: wrap; /* İçerik taşarsa yeni satıra geçer */
+  
+}
+
+.container4  {
+    display: flex;
+    flex-direction: row ; 
+    justify-content: space-between; /* Elemanlar arasında eşit boşluk bırakır */
+
+}
+
+.container5  {
+    background-color: lightcoral;
+    justify-content: space-evenly; /* Elemanlar arasında eşit boşluk bırakır, kenarlarda da boşluk bırakır */
+    display: flex;
+    height: 200px;
+    align-items: center; /* Elemanları dikey olarak ortalar */
+
+}
+
+.container6{
+    display: flex;  
+    justify-content: space-between; /* Elemanlar arasında eşit boşluk bırakır */
+    height: 400px; /* Yüksekliği 400px olarak ayarlar */
+    width: 400px; /* Genişliği 400px olarak ayarlar */
+    background-color: lightblue; /* Arka plan rengini mavi yapar */
+    flex-wrap: wrap; /* İçerik taşarsa yeni satıra geçer */
+    align-content: space-evenly; /* Elemanlar arasında eşit boşluk bırakır, kenarlarda da boşluk bırakır */
+
+}
