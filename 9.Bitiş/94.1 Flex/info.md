@@ -1,18 +1,17 @@
 # CSS Dersleri - Flex
 
----
 
 ## Flex Nedir?
 
-**Flex**, bir konteyner içindeki öğeleri esnek bir şekilde hizalamak ve yerleştirmek için kullanılan bir düzen modelidir.
+**Flex**, bir kapsayıcı içindeki öğeleri esnek ve düzenli bir şekilde hizalamak için kullanılan CSS düzen modelidir.
 
-- Ana kapsayıcıya (`display: flex;`) uygulanır.
+- `display: flex;` ile tanımlanır.
 - İçindeki elemanlar **flex item** olur.
-- Kolay hizalama, boşluk yönetimi ve esnek yerleşim sağlar.
+- Karmaşık hizalama problemlerini basit çözer.
 
 ---
 
-## Temel Kurulum
+## Temel Kullanım
 
 ```css
 .container {
@@ -20,24 +19,24 @@
 }
 ```
 
-- `.container` bir **flex konteyner** olur.
-- İçindeki öğeler otomatik olarak yatayda (row) hizalanır.
+- `.container` artık bir **flex konteyner** olur.
+- İçindeki elemanlar yatayda (row) hizalanır (varsayılan).
 
 ---
 
-## Sık Kullanılan Özellikler
+## Sık Kullanılan Flex Özellikleri
 
 ### `flex-direction`
 
-Öğelerin ana eksen yönünü belirler.
+Öğelerin yönünü belirler.
 
 ```css
 .container {
-  flex-direction: row; /* varsayılan */
+  flex-direction: row; /* Yatay - varsayılan */
 }
 
 .container {
-  flex-direction: column; /* dikey hizalama */
+  flex-direction: column; /* Dikey */
 }
 ```
 
@@ -45,12 +44,13 @@
 
 ### `justify-content`
 
-Ana eksende hizalama yapar (yatayda).
+Ana eksende hizalama yapar.
 
 ```css
 .container {
-  justify-content: center; /* Ortala */
-  justify-content: space-between; /* Arada boşluk */
+  justify-content: center; /* Ortalar */
+  justify-content: space-between; /* Boşluk bırakır */
+  justify-content: space-around; /* Etrafına boşluk ekler */
 }
 ```
 
@@ -58,12 +58,13 @@ Ana eksende hizalama yapar (yatayda).
 
 ### `align-items`
 
-Çapraz eksende hizalama yapar (dikeyde).
+Çapraz eksende hizalama yapar.
 
 ```css
 .container {
-  align-items: center; /* Ortala */
-  align-items: flex-start; /* Üste yasla */
+  align-items: center; /* Ortalar */
+  align-items: flex-start; /* Üst hizalar */
+  align-items: flex-end; /* Alt hizalar */
 }
 ```
 
@@ -71,7 +72,7 @@ Ana eksende hizalama yapar (yatayda).
 
 ### `flex-wrap`
 
-Öğelerin taşma durumunda satır atlayıp atlamayacağını belirler.
+Öğeler taşarsa alt satıra geçer.
 
 ```css
 .container {
@@ -83,7 +84,7 @@ Ana eksende hizalama yapar (yatayda).
 
 ### `gap`
 
-Flex öğeleri arasına boşluk ekler.
+Flex öğeleri arasında boşluk bırakır.
 
 ```css
 .container {
@@ -95,34 +96,29 @@ Flex öğeleri arasına boşluk ekler.
 
 ### `flex` (Öğe Bazında)
 
-Bir öğenin ne kadar yer kaplayacağını ayarlar.
+Öğelerin alan paylaşımını ayarlar.
 
 ```css
 .item {
-  flex: 1; /* Eşit genişlik */
+  flex: 1; /* Eşit paylaşım */
+}
+
+.item {
+  flex: 2; /* Diğerlerinden 2 kat fazla yer kaplar */
 }
 ```
 
 ---
 
-## Özet Avantajları
+## Avantajlar
 
-✅ Karmaşık grid yapılar yerine daha esnek yerleşim sağlar.  
-✅ Dikey ve yatay hizalama kolaydır.  
-✅ Responsive (esnek) tasarımlar için idealdir.
+✅ Yatay ve dikey hizalama kolaydır.  
+✅ Responsive tasarımlar için uygundur.  
+✅ Karmaşık düzenlerde pratik çözüm sunar.
 
 ---
 
-## Örnek
-
-```css
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-}
-```
+## Basit Örnek
 
 ```html
 <div class="container">
@@ -130,4 +126,13 @@ Bir öğenin ne kadar yer kaplayacağını ayarlar.
   <div class="item">2</div>
   <div class="item">3</div>
 </div>
+```
+
+```css
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
 ```
